@@ -1,6 +1,8 @@
-# npm-install step
+# git-configure step
 
-Executes the `npm install` command with leveraging the wercker cache mechanism to improve installation time.
+When provided with a github access token, adds a github remote to the repository so that you
+can push changes back to github.Not needed if you gave the werckerbot write access to your repository.
+
 
 ## Options
 
@@ -12,7 +14,8 @@ Executes the `npm install` command with leveraging the wercker cache mechanism t
 
 ## Example
 
-    - npm-install
+    - git-configure
+        github_access_token: $GITHUB_ACCESS_TOKEN
 
 # What's new
 
