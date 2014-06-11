@@ -1,3 +1,3 @@
 name: git-configure
-version: 0.0.2
-description: configure git with additional write permissions step
+version: 0.0.3
+description: configure git with global defaults.
